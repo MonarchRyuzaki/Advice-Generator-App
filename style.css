@@ -1,0 +1,81 @@
+:root{
+    --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: rgb(82, 255, 168);
+    --GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--DarkBlue);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section{
+    background-color: var(--DarkGrayishBlue);
+    text-align: center;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    max-width: 600px;
+}
+
+.heading{
+    color: var(--NeonGreen);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 35px;
+}
+
+.advice-text{
+    font-weight: 800;
+    font-size: 28px;
+    color: var(--LightCyan);
+    margin-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.divider{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+img{
+    width: 85%;
+}
+
+.dice{
+    position: relative;
+    top: 1.2px;
+    left: 0.3px;
+    width: 50%;
+}
+
+.generate{
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--NeonGreen);
+    position: relative;
+    top: 25px;
+}
+
+.generate:hover{
+    box-shadow: 0px 0px 60px 2px rgba(82, 255, 168, 0.75);
+}
