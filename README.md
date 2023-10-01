@@ -26,8 +26,8 @@ Users should be able to:
 - Generate a new piece of advice by clicking the dice icon
 
 ### Screenshot
+![1696139455089](image/README/1696139455089.png)
 
-![1696139024257](image/README/1696139024257.png)
 
 ### Links
 
